@@ -1,0 +1,15 @@
+{
+  "created": "2025-09-22T19:23:02",
+  "random_state": 42,
+  "labels": [
+    "case study",
+    "design-based",
+    "experiment",
+    "survey"
+  ],
+  "text_col": "abstract",
+  "active_text_col": "clean_text",
+  "label_col": "methodology",
+  "vectorizer": "TFIDF word(1-2), min_df=2, max_features=20000, lowercase, strip_accents=unicode",
+  "model": "NB_tuned"
+}

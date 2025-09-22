@@ -1,0 +1,41 @@
+model,class,rank,term
+logreg,case study,1,case study
+logreg,case study,2,case
+logreg,case study,3,study
+logreg,case study,4,interview
+logreg,case study,5,governance
+logreg,case study,6,challenge
+logreg,case study,7,data
+logreg,case study,8,rollout
+logreg,case study,9,log
+logreg,case study,10,new
+logreg,design-based,1,design
+logreg,design-based,2,dbr
+logreg,design-based,3,iteration
+logreg,design-based,4,design based
+logreg,design-based,5,based
+logreg,design-based,6,designed
+logreg,design-based,7,cycle
+logreg,design-based,8,co
+logreg,design-based,9,pilot
+logreg,design-based,10,refined
+logreg,experiment,1,experiment
+logreg,experiment,2,task
+logreg,experiment,3,controlled
+logreg,experiment,4,subject
+logreg,experiment,5,executed
+logreg,experiment,6,latency
+logreg,experiment,7,within subject
+logreg,experiment,8,within
+logreg,experiment,9,accuracy
+logreg,experiment,10,subject experiment
+logreg,survey,1,survey
+logreg,survey,2,surveyed
+logreg,survey,3,predicted
+logreg,survey,4,correlated
+logreg,survey,5,satisfaction
+logreg,survey,6,engineer
+logreg,survey,7,perceived
+logreg,survey,8,reported
+logreg,survey,9,developer
+logreg,survey,10,higher

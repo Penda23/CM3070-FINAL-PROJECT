@@ -1,0 +1,59 @@
+{
+  "RANDOM_STATE": 42,
+  "CSV_PATH": "abstracts_methodology_expanded.csv",
+  "TEXT_COL": "abstract",
+  "ACTIVE_TEXT_COL": "clean_text",
+  "LABEL_COL": "methodology",
+  "label_order": [
+    "case study",
+    "design-based",
+    "experiment",
+    "survey"
+  ],
+  "cv_summary": {
+    "model": [
+      "nb",
+      "lr",
+      "svm"
+    ],
+    "best_params": [
+      {
+        "clf__alpha": 0.5
+      },
+      {
+        "clf__C": 2.0,
+        "clf__penalty": "l2"
+      },
+      {
+        "clf__estimator__C": 0.25
+      }
+    ],
+    "cv_f1_macro": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "test_results": {
+    "model": [
+      "nb",
+      "svm",
+      "lr"
+    ],
+    "test_f1_macro": [
+      1.0,
+      1.0,
+      0.9749373433583959
+    ],
+    "test_precision_macro": [
+      1.0,
+      1.0,
+      0.9772727272727273
+    ],
+    "test_recall_macro": [
+      1.0,
+      1.0,
+      0.975
+    ]
+  }
+}
